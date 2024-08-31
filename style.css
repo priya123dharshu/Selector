@@ -1,0 +1,51 @@
+*{
+   font-family:Arial, Helvetica, sans-serif; 
+}
+
+h1{
+    color: darkmagenta;
+}
+
+h2{
+    color: rgb(120, 153, 153);
+}
+
+h3{
+    color:blue
+}
+
+.parent h4{
+    color: blueviolet;
+}
+
+.child h4 {
+    color: brown;
+}
+
+.child>ol>li.red{
+    color: red;
+}
+
+.child>ol>li.blue{
+    color: cyan;
+}
+
+.red~.yellow{
+    color: darkorange;
+}
+
+.blue+.green{
+    color: greenyellow;
+}
+
+.child>li.navy{
+    color: navy;
+}
+
+.parent>ul>.blue{
+    color: lightcoral;
+}
+
+.parent>li.yellow{
+    color: yellow;
+}
